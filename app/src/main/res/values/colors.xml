@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#303030</color>
+    <color name="colorPrimaryDark">#303030</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="main_bg_color">#303030</color>
+    <color name="navbar_color">#262626</color>
+    <color name="white">#fff</color>
+    <color name="lightgray">#C0C0C0</color>
+    <color name="gray">#848484</color>
+    <color name="blue">#6F93B5</color>
+    <color name="green">#85B56F</color>
+
+    <color name="dark_button">#454545</color>
+
+</resources>

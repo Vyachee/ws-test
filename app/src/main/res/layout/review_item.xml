@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/et_rounded"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/robotolight"
+        android:text="Диванный Эксперт Фамилия"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/robotolight"
+        android:text="17.08.2020"
+        android:textColor="@color/lightgray"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_name" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name">
+
+        <ImageView
+            android:id="@+id/iv_star_1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="0"
+            android:tint="@color/main_bg_color"
+            app:srcCompat="@drawable/ic_star_solid" />
+
+        <ImageView
+            android:id="@+id/iv_star_2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="0"
+            android:tint="@color/main_bg_color"
+            app:srcCompat="@drawable/ic_star_solid" />
+
+        <ImageView
+            android:id="@+id/iv_star_3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="0"
+            android:tint="@color/main_bg_color"
+            app:srcCompat="@drawable/ic_star_solid" />
+
+        <ImageView
+            android:id="@+id/iv_star_4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="0"
+            android:tint="@color/main_bg_color"
+            app:srcCompat="@drawable/ic_star_solid" />
+
+        <ImageView
+            android:id="@+id/iv_star_5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="0"
+            android:tint="@color/main_bg_color"
+            app:srcCompat="@drawable/ic_star_solid" />
+
+        <ImageView
+            android:id="@+id/iv_star_6"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="0"
+            android:tint="@color/main_bg_color"
+            app:srcCompat="@drawable/ic_star_solid" />
+
+        <ImageView
+            android:id="@+id/iv_star_7"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="0"
+            android:tint="@color/main_bg_color"
+            app:srcCompat="@drawable/ic_star_solid" />
+
+        <ImageView
+            android:id="@+id/iv_star_8"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="0"
+            android:tint="@color/main_bg_color"
+            app:srcCompat="@drawable/ic_star_solid" />
+
+        <ImageView
+            android:id="@+id/iv_star_9"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="0"
+            android:tint="@color/main_bg_color"
+            app:srcCompat="@drawable/ic_star_solid" />
+
+        <ImageView
+            android:id="@+id/iv_star_10"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="0"
+            android:tint="@color/main_bg_color"
+            app:srcCompat="@drawable/ic_star_solid" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id faucibus justo. Nunc tincidunt, massa id pretium scelerisque, dolor ante interdum quam, non elementum dolor erat a urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed auctor eleifend faucibus. Nam eu sem ut augue tristique congue. In at ornare magna. Fusce venenatis, neque sed iaculis "
+        android:fontFamily="@font/robotolight"
+        android:textColor="@color/lightgray"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

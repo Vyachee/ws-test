@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg_color"
+    android:padding="24dp"
+    tools:context=".Login">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:textSize="36sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/robotolight"
+                android:text="Войти в аккаунт" />
+
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/robotolight"
+                android:textColor="@color/gray"
+                android:textSize="14sp"
+                android:text="Адрес электронной почты"
+                android:layout_marginTop="96dp" />
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/et_rounded"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#fff"
+                android:fontFamily="@font/robotolight"
+                android:textColorHint="@color/lightgray"
+                android:layout_marginTop="4dp"
+                android:hint="vasyan174@mail.ru" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/robotolight"
+                android:textColor="@color/gray"
+                android:textSize="14sp"
+                android:text="Пароль"
+                android:layout_marginTop="8dp"/>
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:background="@drawable/et_rounded"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#fff"
+                android:fontFamily="@font/robotolight"
+                android:textColorHint="@color/lightgray"
+                android:layout_marginTop="4dp"
+                android:hint="************"/>
+
+            <TextView
+                android:id="@+id/tv_auth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/b_blue"
+                android:padding="8dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/robotolight"
+                android:layout_marginTop="16dp"
+                android:text="Войти" />
+
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ещё нет аккаунта?"
+                android:fontFamily="@font/robotolight"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_marginTop="32dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/b_green"
+                android:padding="8dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/robotolight"
+                android:layout_marginTop="16dp"
+                android:text="Зарегистрироваться" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
